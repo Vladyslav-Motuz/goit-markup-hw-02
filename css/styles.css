@@ -1,0 +1,215 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --gray-text: rgba(117, 117, 117, 1);
+  --white-text-op60: rgba(255, 255, 255, 0.6);
+  --background-color-hero: rgba(47, 48, 58, 1);
+  --background-color-teams: rgba(245, 244, 250, 1);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Шапка сайта */
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+.logo {
+  color: var(--black-text);
+}
+.logo .accent {
+  color: var(--blue-text);
+}
+
+.site-nav a {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--blue-text);
+}
+.site-nav .current {
+  color: var(--blue-text);
+}
+.contact-info a {
+  color: var(--gray-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.contact-info a:hover,
+.contact-info a:focus,
+.contact-info a:active {
+  color: var(--blue-text);
+}
+
+/* Секция героя */
+.hero {
+  background-color: var(--background-color-hero);
+}
+
+.hero h1 {
+  color: var(--white-text);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero button {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Секция наши преимущества и чем мы занимаемся */
+
+.advant h3 {
+  color: var(--black-text);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+}
+
+.advant p {
+  color: var(--gray-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.advant h2 {
+  color: var(--black-text);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Секция наша команда */
+.team {
+  background-color: var(--background-color-teams);
+}
+
+.team h2 {
+  color: var(--black-text);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team h3 {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team p {
+  color: var(--gray-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.footer {
+  background-color: var(--background-color-hero);
+}
+
+.footer .logo {
+  color: var(--white-text);
+}
+.footer .accent {
+  color: var(--blue-text);
+}
+
+.contacts .location {
+  color: var(--white-text);
+}
+.contacts .mail {
+  color: var(--white-text-op60);
+}
+
+.contacts .tel {
+  color: var(--white-text-op60);
+}
+
+.contacts a:hover,
+.contacts a:focus,
+.contacts a:active {
+  color: var(--blue-text);
+}
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contacts a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio.html */
+/* Для конопок */
+.nav-examples button {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.nav-examples button {
+  color: var(--black-text);
+  background-color: var(--background-color-teams);
+}
+
+.nav-examples button:hover,
+.nav-examples button:focus,
+.nav-examples button:active {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+/* Для карточек */
+
+.examples h2 {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples p {
+  color: var(--gray-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
